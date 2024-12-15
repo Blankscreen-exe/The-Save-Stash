@@ -1,0 +1,22 @@
+[
+    {
+        "platform": "ppsspp",
+        "game": "7th-dragon-2020",
+        "fileName": "file1.sav"
+    },
+    {
+        "platform": "gba",
+        "game": "Castlevania",
+        "fileName": "file2.sav"
+    },
+    {
+        "platform": "ppsspp",
+        "game": "pokemon",
+        "fileName": "file3.sav"
+    },
+    {
+        "platform": "ppsspp",
+        "game": "FF7",
+        "fileName": "file4.sav"
+    }
+]
