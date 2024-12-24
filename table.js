@@ -21,7 +21,7 @@ $(document).ready(function () {
         data: "fileName",
         render: function (data, type, row) {
           console.log(row)
-          return `<a href="${base_url+row.platform+"/"+row.game+"/"+row.fileName}" class="save-file-link">${data}</span>`;
+          return `<a href="${base_url+"saves/"+row.platform+"/"+row.game+"/"+data}" class="save-file-link">${data}</span>`;
         },
       },
     ],

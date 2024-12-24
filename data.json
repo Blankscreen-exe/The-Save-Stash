@@ -3,22 +3,22 @@
     {
       "platform": "ppsspp",
       "game": "7th-dragon-2020",
-      "fileName": "file1.sav"
+      "fileName": "savefile.rar"
     },
     {
       "platform": "gba",
       "game": "castlevania",
-      "fileName": "file2.sav"
+      "fileName": "savefile.rar"
     },
     {
       "platform": "ppsspp",
       "game": "pokemon",
-      "fileName": "file3.sav"
+      "fileName": "savefile.rar"
     },
     {
       "platform": "ppsspp",
       "game": "FF7",
-      "fileName": "file4.sav"
+      "fileName": "savefile.rar"
     }
   ]
 }
