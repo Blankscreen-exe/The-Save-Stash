@@ -1,0 +1,54 @@
+:root {
+    --primary-orange: #f05a28;
+    --table-bg: rgb(199, 199, 199);
+    --table-alt-row-color: #ffffff40;
+    --white: #ffffff;
+    --body-bg: #faebd712;
+  }
+
+body {
+    background-color: rgb(43, 43, 43);
+    color: var(--white);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#saveStashTable {
+    background-color: var(--table-bg);
+    color: black;
+}
+
+#saveStashTable thead {
+    background-color: var(--primary-orange);
+    color: white;
+    font-weight: bold;
+}
+
+#saveStashTable tr:nth-child(even) {
+    background-color: var(--table-alt-row-color);
+}
+
+.dt-container.dt-paging.dt-paging-button.disabled {
+    color:white !important;
+}
+
+#header-title {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    color: var(--primary-orange);
+}
+
+#header-title span {
+    display: flex;
+}
+
+#body-section {
+    width: 80%;
+    margin: auto;
+    background-color: var(--body-bg);
+    padding: 10px;
+}
+
+.save-file-link {
+    color: var(--primary-orange);
+}
