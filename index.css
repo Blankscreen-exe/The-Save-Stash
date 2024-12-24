@@ -59,3 +59,19 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
+#footer-section {
+    margin:auto;
+    margin-top: 30px;
+    width: 60%;
+    background-color: var(--body-bg);
+    padding:10px;
+}
+
+#footer-section p {
+    text-align: center;
+}
+
+#footer-section a {
+    color: var(--primary-orange);
+}
