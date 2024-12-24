@@ -52,3 +52,10 @@ body {
 .save-file-link {
     color: var(--primary-orange);
 }
+
+#page-description {
+    width: 60%;
+    margin:auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
