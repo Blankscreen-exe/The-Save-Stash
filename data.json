@@ -1,24 +1,9 @@
 {
   "data": [
     {
-      "platform": "ppsspp",
-      "game": "7th-dragon-2020",
-      "fileName": "savefile.rar"
-    },
-    {
-      "platform": "gba",
-      "game": "castlevania",
-      "fileName": "savefile.rar"
-    },
-    {
-      "platform": "ppsspp",
-      "game": "pokemon",
-      "fileName": "savefile.rar"
-    },
-    {
-      "platform": "ppsspp",
-      "game": "FF7",
-      "fileName": "savefile.rar"
+      "platform": "pc",
+      "game": "katana_zero",
+      "fileName": "save_file.rar"
     }
   ]
 }
