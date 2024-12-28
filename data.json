@@ -4,6 +4,21 @@
       "platform": "pc",
       "game": "katana_zero",
       "fileName": "save_file.rar"
+    },
+	{
+      "platform": "ppsspp",
+      "game": "tenchu_time_of_assassins",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "ppsspp",
+      "game": "tenchu_shadow_assassins",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "ppsspp",
+      "game": "tactics_ogre_let_us_cling_together",
+      "fileName": "save_file.rar"
     }
   ]
 }
