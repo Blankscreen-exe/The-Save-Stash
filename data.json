@@ -16,6 +16,86 @@
       "fileName": "save_file.rar"
     },
 	{
+      "platform": "pc",
+      "game": "9_years_of_shadows",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "bloodstained_curse_of_the_moon",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "castlevania_lords_of_shadow_2",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "castlevania_lords_of_shadow_mirror_of_fate",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "ender_lilies_quietus_of_the_knights",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "hollow_knight",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "nier_automata",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "shantae_and_the_pirates_curse",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "shantae_and_the_seven_sirens",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "shovel_knight_treasure_trove",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "pc",
+      "game": "touhou_luna_nights",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "ppsspp",
+      "game": "castlevania_dracula_x_chronicles",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "ppsspp",
+      "game": "shadow_of_destiny",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "ppsspp",
+      "game": "valkyrie_profile_lenneth",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "desmuME",
+      "game": "castlevania_order_of_ecclesia",
+      "fileName": "save_file.rar"
+    },
+	{
+      "platform": "desmuME",
+      "game": "castlevania_portrait_of_ruin",
+      "fileName": "save_file.rar"
+    },
+	{
       "platform": "ppsspp",
       "game": "tactics_ogre_let_us_cling_together",
       "fileName": "save_file.rar"
