@@ -99,6 +99,11 @@
       "platform": "ppsspp",
       "game": "tactics_ogre_let_us_cling_together",
       "fileName": "save_file.rar"
+    },
+	{
+      "platform": "gba",
+      "game": "harvest_moon-friends_of_mineral_town",
+      "fileName": "save_file.rar"
     }
   ]
 }
