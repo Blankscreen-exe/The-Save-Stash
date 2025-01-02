@@ -28,7 +28,7 @@ $(document).ready(function () {
 		let chart_bars = ''; 
 
 		for (const [key, item] of Object.entries(platformCounts)) {
-			chart_bars += `<span>${key.toUpperCase()} (${item})</span>`;
+			chart_bars += `<span>${key.toUpperCase()} ( ${item} )</span>`;
 		}
 
 		// populate chart section
