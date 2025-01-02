@@ -81,3 +81,24 @@ body {
 #footer-section a {
     color: var(--primary-orange);
 }
+
+#chart-section {
+    width: 60%;
+    margin:auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#chart-section span {
+    background-color: var(--primary-orange);
+    padding: 5px 10px;
+    border: 4px solid #bb3300;
+    font-weight: bold;
+}
+
+#chart-section span:hover {
+    filter: brightness(1.2);
+    cursor: context-menu;
+}

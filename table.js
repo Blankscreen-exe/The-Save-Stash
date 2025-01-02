@@ -14,6 +14,33 @@ $(document).ready(function () {
 		.join(' '); 
 	}
 
+	fetch(data_url)
+	.then(async data => {
+		let save_data = await data.text();
+		save_data = JSON.parse(save_data);
+		
+		const platformCounts = save_data.data.reduce((acc, item) => {
+			let count = (acc[item.platform] || 0) + 1;
+			acc[item.platform] = count;
+			return acc;
+		}, {});
+		
+		let chart_bars = ''; 
+
+		for (const [key, item] of Object.entries(platformCounts)) {
+			chart_bars += `<span>${key.toUpperCase()} (${item})</span>`;
+		}
+
+		// populate chart section
+		$('#chart-section').html(chart_bars);
+
+	})
+	.catch(error => {
+		console.error("Error fetching data:", error);
+		alert(error);
+	});
+
+
 	$("#saveStashTable").DataTable({
 	ajax: data_url,
 	columns: [
