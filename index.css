@@ -53,6 +53,12 @@ body {
     color: var(--primary-orange);
 }
 
+.save-file-link > img:hover {
+    filter: brightness(1.4);
+    cursor: pointer;
+    background-color: #d7d7d730;
+}
+
 #page-description {
     width: 60%;
     margin:auto;

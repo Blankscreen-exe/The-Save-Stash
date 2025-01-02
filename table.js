@@ -32,8 +32,9 @@ $(document).ready(function () {
 	  {
 		data: "fileName",
 		render: function (data, type, row) {
-		  return `<a href="${base_url+"saves/"+row.platform+"/"+row.game+"/"+data}" class="save-file-link">${data}</span>`;
+		  return `<a href="${base_url+"saves/"+row.platform+"/"+row.game+"/"+data}" class="save-file-link"><img src="assets/download.svg" width="20px"/></span>`;
 		},
+		sortable:false
 	  },
 	],
   });
