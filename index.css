@@ -4,12 +4,14 @@
     --table-alt-row-color: #ffffff40;
     --white: #ffffff;
     --body-bg: #faebd712;
+
+    --font-primary: 'Courier New', Courier, monospace
   }
 
 body {
     background-color: rgb(43, 43, 43);
     color: var(--white);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font-primary);
 }
 
 #saveStashTable {
@@ -103,9 +105,14 @@ body {
     cursor: context-menu;
 }
 
+div.dt-container .dt-input {
+    background-color: #313131;
+    font-family: var(--font-primary) !important;
+}
+
 .dt-paging-button {
     background-color: #f05a28 !important;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font-primary) !important;
     border: 3px solid orangered !important;
 }
 .dt-paging-button:hover {
