@@ -1,3 +1,17 @@
+
+@font-face {
+    font-family: 'primaryfont';
+    src: url('assets/fonts/rainyhearts.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'buttonfont';
+    src: url('assets/fonts/MedodicaRegular.woff') format('woff')
+}
+@font-face {
+    font-family: 'chartfont';
+    src: url('assets/fonts/rainyhearts.ttf') format('truetype')
+}
+
 :root {
     --primary-orange: #f05a28;
     --table-bg: rgb(199, 199, 199);
@@ -5,13 +19,16 @@
     --white: #ffffff;
     --body-bg: #faebd712;
 
-    --font-primary: 'Courier New', Courier, monospace
+    --font-primary: primaryfont;
+    --font-button: buttonfont;
+    --font-chart: chartfont;
   }
 
 body {
     background-color: rgb(43, 43, 43);
     color: var(--white);
     font-family: var(--font-primary);
+    font-size: larger;
 }
 
 #saveStashTable {
@@ -98,6 +115,7 @@ body {
     padding: 5px 10px;
     border: 4px solid #bb3300;
     font-weight: bold;
+    font-family: var(--font-chart);
 }
 
 #chart-section span:hover {
@@ -107,16 +125,15 @@ body {
 
 div.dt-container .dt-input {
     background-color: #313131;
-    font-family: var(--font-primary) !important;
+    font-family: var(--font-button) !important;
 }
 
 .dt-paging-button {
     background-color: #f05a28 !important;
-    font-family: var(--font-primary) !important;
+    font-family: var(--font-button) !important;
     border: 3px solid orangered !important;
 }
 .dt-paging-button:hover {
-    /* background-color: #f05a28 !important; */
     filter: brightness(1.3) !important;
     background: none !important;
 }
