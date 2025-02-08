@@ -104,6 +104,11 @@
       "platform": "gba",
       "game": "harvest_moon-friends_of_mineral_town",
       "fileName": "save_file.rar"
+    },
+	{
+      "platform": "epsxe",
+      "game": "koudelka",
+      "fileName": "save_file.rar"
     }
   ]
 }
