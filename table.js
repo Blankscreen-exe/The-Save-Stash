@@ -2,7 +2,7 @@ var base_url = "https://raw.githubusercontent.com/Blankscreen-exe/The-Save-Stash
 var data_url = base_url + "data.json";
 
 $(document).ready(function () {
-	
+
 	function formatNameString(input) {
 	  return input
 		.split('_')
@@ -11,21 +11,21 @@ $(document).ready(function () {
 			? word
 			: word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
 		)
-		.join(' '); 
+		.join(' ');
 	}
 
 	fetch(data_url)
 	.then(async data => {
 		let save_data = await data.text();
 		save_data = JSON.parse(save_data);
-		
+
 		const platformCounts = save_data.data.reduce((acc, item) => {
 			let count = (acc[item.platform] || 0) + 1;
 			acc[item.platform] = count;
 			return acc;
 		}, {});
-		
-		let chart_bars = ''; 
+
+		let chart_bars = '';
 
 		for (const [key, item] of Object.entries(platformCounts)) {
 			chart_bars += `<span>${key.toUpperCase()} ( ${item} )</span>`;
@@ -45,9 +45,9 @@ $(document).ready(function () {
 	ajax: data_url,
 	columns: [
 	  {
-		data: "game",
+		data: "title",
 		render: function (data, type) {
-		  return `<strong>${formatNameString(data)}</strong>`;
+		  return `<strong>${data}</strong>`;
 		},
 	  },
 	  {

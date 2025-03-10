@@ -2,118 +2,141 @@
   "data": [
   {
         "platform": "ppsspp",
-        "game": "danganronpa_-_hope's_academy_and_despair's_students",
-        "fileName": "save_file.rar"
+        "game": "danganronpa_hopes_academy_and_despairs_students",
+        "fileName": "save_file.rar",
+        "title": "Danganronpa - Hope's Academy And Despair's Students"
     },
   {
       "platform": "pc",
       "game": "katana_zero",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Katana Zero"
     },
 	{
       "platform": "ppsspp",
       "game": "tenchu_time_of_assassins",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Tenchu: Time Of Assassins"
     },
 	{
       "platform": "ppsspp",
       "game": "tenchu_shadow_assassins",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Tenchu: Shadow Assassins"
     },
 	{
       "platform": "pc",
       "game": "9_years_of_shadows",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "9 Years Of Shadows"
     },
 	{
       "platform": "pc",
       "game": "bloodstained_curse_of_the_moon",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Bloodstained: Curse Of The Moon"
     },
 	{
       "platform": "pc",
       "game": "castlevania_lords_of_shadow_2",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Castlevania: Lords Of Shadow 2"
     },
 	{
       "platform": "pc",
       "game": "castlevania_lords_of_shadow_mirror_of_fate",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Castlevania: Lords Of Shadow - Mirror Of Fate"
     },
 	{
       "platform": "pc",
       "game": "ender_lilies_quietus_of_the_knights",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Ender Lilies: Quietus Of The Knights"
     },
 	{
       "platform": "pc",
       "game": "hollow_knight",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Hollow Knight"
     },
 	{
       "platform": "pc",
       "game": "nier_automata",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Nier Automata"
     },
 	{
       "platform": "pc",
       "game": "shantae_and_the_pirates_curse",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Shantae And The Pirate's Curse"
     },
 	{
       "platform": "pc",
       "game": "shantae_and_the_seven_sirens",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Shantae And The Seven Sirens"
     },
 	{
       "platform": "pc",
       "game": "shovel_knight_treasure_trove",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Shovel Knight: Treasure Trove"
     },
 	{
       "platform": "pc",
       "game": "touhou_luna_nights",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Touhou: Luna Nights"
     },
 	{
       "platform": "ppsspp",
       "game": "castlevania_dracula_x_chronicles",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Castlevania: Dracula X Chronicles"
     },
 	{
       "platform": "ppsspp",
       "game": "shadow_of_destiny",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Shadow Of Destiny"
     },
 	{
       "platform": "ppsspp",
       "game": "valkyrie_profile_lenneth",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Valkyrie Profile: Lenneth"
     },
 	{
       "platform": "desmuME",
       "game": "castlevania_order_of_ecclesia",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Castlevania: Order Of Ecclesia"
     },
 	{
       "platform": "desmuME",
       "game": "castlevania_portrait_of_ruin",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Castlevania: Portrait Of Ruin"
     },
 	{
       "platform": "ppsspp",
       "game": "tactics_ogre_let_us_cling_together",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Tactics Ogre: Let Us Cling Together"
     },
 	{
       "platform": "gba",
       "game": "harvest_moon-friends_of_mineral_town",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Harvest Moon: Friends Of Mineral Town"
     },
 	{
       "platform": "epsxe",
       "game": "koudelka",
-      "fileName": "save_file.rar"
+      "fileName": "save_file.rar",
+      "title": "Koudelka"
     }
   ]
 }
