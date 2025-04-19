@@ -1,12 +1,18 @@
 {
   "data": [
-  {
+	{
+        "platform": "pc",
+        "game": "danganronpa_2_goodbye_despair_academy",
+        "fileName": "save_file.rar",
+        "title": "Danganronpa 2 - Goodbye Despair Academy"
+    },
+	{
         "platform": "ppsspp",
         "game": "danganronpa_hopes_academy_and_despairs_students",
         "fileName": "save_file.rar",
         "title": "Danganronpa - Hope's Academy And Despair's Students"
     },
-  {
+	{
       "platform": "pc",
       "game": "katana_zero",
       "fileName": "save_file.rar",
