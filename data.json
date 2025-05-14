@@ -1,6 +1,12 @@
 {
   "data": [
 	{
+		"platform": "gba",
+		"game": "duel_masters_shadow_of_the_code",
+		"fileName": "save_file.rar",
+		"title": "Duel Masters - Shadow Of The Code"
+    },
+	{
         "platform": "pc",
         "game": "danganronpa_2_goodbye_despair_academy",
         "fileName": "save_file.rar",
